@@ -8,14 +8,11 @@ int main(){
         for(i=1;i<=n;i++){
             if(n<=3){
                 printf("%d \n", n);
-                i=1;
                 break;
             }else if(n%i==0 && i!=1 && i!=n){
-                i=1;
                 break;
             }else if(n%i!=0 && i==(n-1)){
                 printf("%d \n", n);
-                i=1;
                 break;
             }
         }
